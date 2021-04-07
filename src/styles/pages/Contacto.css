@@ -1,0 +1,58 @@
+.columna{
+    width: 50%;
+    box-sizing: border-box;
+   
+}
+.columna.left{
+    float: left;
+    /* background-color: red; */
+}
+
+.columna.right{
+    float: right;
+    /* background-color: blue; */
+}
+
+.columna.right p{
+    font-size: 14px;
+}
+
+.columna.right ul li{
+    font-size: 13px;
+}
+
+.contacto label{
+    /* background-color: yellow; */
+    width: 20%;
+    display: inline-block;
+    vertical-align:top;
+    font-weight: bold;
+}
+
+.contacto input,
+.contacto textarea{
+    background-color: #ccc;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 4px;
+    width: 90%; /*si coloco 75% queda al lado*/
+}
+
+.contacto textarea{
+    height: 100px;
+    resize: none; /*no aparezca las lineas diagonal no puede agrandar o achicar*/
+}
+
+.contacto input[type="submit"]{
+    background-color: #6da9ed;
+    width:auto;
+    padding: 6px;
+    box-shadow:  0 0 10px rgba(0,0,0,0.5);
+    color: white;
+    font-size: 18px;
+}
+
+.centrar{
+     text-align: center;
+}

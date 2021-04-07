@@ -1,0 +1,3 @@
+-- ADDING COLUMN
+
+ALTER TABLE novedades ADD COLUMN img_id VARCHAR(230)

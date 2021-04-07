@@ -1,0 +1,28 @@
+body{
+  font-family: 'Open Sans', sans-serif;  
+}
+
+h1{
+    color: white;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 100; 
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+}
+
+.holder{
+    max-width: 960px;
+    margin:0 auto;
+}
+
+h2{
+    font-weight: 400;
+    color:#2e64a1;
+    margin: 20px 0 16px;/*arriba - laterales - inferior*/
+ }
+
+.novedades img {
+    width: 100%;
+}

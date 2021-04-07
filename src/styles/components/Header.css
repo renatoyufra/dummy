@@ -1,0 +1,9 @@
+header{
+    background-color: #2e64a1; /*color hexadecimales*/
+    padding: 16px 0; /*parametro:  1 arriba y abajo - 2 laterales*/
+}
+
+header .holder {
+    width: 340px;
+    padding: 2px auto;
+}
